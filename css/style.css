@@ -1,0 +1,178 @@
+    .offer-section {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    
+    .offer-deatils {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    
+    .offer-pic {
+        width: 160px;
+     /* height: 200px; */
+        border-radius: 100px;
+        border: solid 5px yellow;
+        transition: 0.4s;
+    }
+    
+    .offer-pic:hover {
+        transform: scale(1.1);
+    }
+    
+    .burger-bg {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 600px;
+        height: 200px;
+        margin-right: 30px;
+        margin-left: 5px;
+        padding-left: 15px;
+        border-radius: 8px;
+        background-color: rgb(52, 45, 57);
+    }
+    
+    .offer-title {
+        margin-left: 20px;
+        padding-top: 2px;
+        padding-bottom: 10px;
+    }
+    
+    .heading-style {
+        color: white;
+        font-size: 24px;
+        font-weight: 500;
+        font-style: italic;
+        font-family: 'Dancing Script';
+        padding: 5px 3px;
+    }
+    
+    .number {
+        color: white;
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    
+    span {
+        font-size: 20px;
+        font-weight: 300;
+        font-style: inherit;
+        font-family: 'Dancing Script';
+    }
+    
+    .food-title {
+        font: 40px;
+        text-align: center;
+        margin-top: 8%;
+        font-weight: 600;
+        font-family: 'Dancing Script', cursive;
+        font-style: italic;
+    }
+    
+    .menu-list {
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .food-name {
+        background-color: black;
+    }
+    
+    .menu-list button {
+        margin: 5px;
+    }
+    
+    .grid-container {
+        width: 90%;
+        margin: 60px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        font-family: sans-serif;
+    }
+    
+    .card {
+        /* width: 350px;
+        height: 300px; */
+        margin-top: 5px;
+        /* box-shadow: 0 0 3px rgb(0, 0, 0, 0.1); */
+        box-shadow: 4px 4px 6px gray;
+        border-radius: 20px;
+    }
+    /* .card-image {
+        width: 400px;
+        height: 300px;
+    } */
+
+  
+    .card_image{
+        margin-top: 5px;
+        margin-left: 50px;
+        width: 250px;
+        height: 200px;
+    
+    }
+    
+    .card-content {
+        background-color:#222831;
+        margin-top: 5px;
+        color: white;
+        width: 340px;
+        /* border-radius: 5px; */
+        line-height: 1.5;
+        font-size: 0.9em;
+        padding: 15px;
+        /* background-color: rgb(150, 163, 163); */
+    }
+    
+    .card-info {
+        background-color:#222831;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color:white;
+    }
+    
+    .describe-info {
+        background-color: rgb(38, 30, 30);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    
+    .describe-info img {
+        margin: 30px;
+        padding: 10px 15px;
+    }
+    
+    .describe-heading {
+        color: white;
+        font-size: 1.1rem;
+        line-height: 1.4;
+        /* text-align: center; */
+        margin: 22% 1%;
+        padding: 0px 20px;
+        text-align: start;
+        font-family: serif;
+        font-style: italic;
+    }
+    
+    .describe-heading h1 {
+        font-family: serif;
+        text-align: center;
+        margin-bottom: 15px;
+        padding: 5px 5px;
+    }
+    
+    .describe-heading button {
+        margin-top: 30px;
+    }
+    
+    .form-section {
+        margin-top: 50px;
+    }

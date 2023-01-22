@@ -1,0 +1,384 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/60ca58dd5a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        .hero {
+            height: 100vh;
+            width: 100%;
+            background-image: url('image/hero-bg.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .logo {
+            color: white;
+            font-family: fantasy;
+            font-weight: 500;
+            font-size: 25px;
+            margin-right: auto;
+            /* font-style: bold; */
+        }
+        
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-left: 5%;
+            padding-right: 10%;
+        }
+        
+        nav ul li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px 20px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        nav ul li a:hover {
+            color: #ea1538;
+            transition: .3s;
+        }
+        
+        button {
+            border: none;
+            background: goldenrod;
+            padding: 12px 30px;
+            border-radius: 30px;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            transition: 1s;
+        }
+        
+        button:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        
+        .container {
+            color: white;
+            width: 50%;
+            padding-left: 60px;
+            padding-top: 100px;
+        }
+        
+        .heading {
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-style: italic;
+            padding: 10px 10px;
+        }
+        
+        .para {
+            font: 15px;
+            padding: 10px 10px;
+            padding-bottom: 20px
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div class="hero">
+
+        <nav>
+            <h2 class="logo">Resturant</h2>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">CONTRACT</a></li>
+            </ul>
+            <a href="#"><button>Online Order</button></a>
+        </nav>
+        <!-- heading section -->
+        <section>
+            <div class="container">
+                <h2 class="heading">Fast Food Resturant</h2>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aliquid voluptas aperiam enim totam facere at nesciunt! Nemo vero perspiciatis quas quisquam, quidem alias exercitationem quasi fuga pariatur consequatur fugit!</p>
+
+                <button>Order Now</button>
+            </div>
+
+
+        </section>
+    </div>
+
+    <!-- Offer section -->
+
+    <section class="offer-deatils">
+        <div class="offer-section">
+            <div class="burger-bg">
+                <div class="pic-info">
+                    <img class="offer-pic" src="image/o1.jpg" alt="">
+                </div>
+                <div class="offer-title">
+                    <h2 class="heading-style">Tasty Thurdays</h2>
+                    <h1 class="number">20% <span>off</span></h1>
+                    <button>order Now <i class="fa-solid fa-cart-shopping"></i> </button>
+
+                </div>
+            </div>
+
+            <div class="burger-bg">
+                <div class="pic-info">
+                    <img class="offer-pic" src="image/o2.jpg" alt="">
+                </div>
+                <div class="offer-title">
+                    <h2 class="heading-style">Pizza Days</h2>
+                    <h1 class="number">20% <span>off</span></h1>
+                    <button>order Now <i class="fa-solid fa-cart-shopping"></i> </button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- food section -->
+
+    <section>
+        <h1 class="food-title">Our Menu</h1>
+        <div class="menu-list">
+
+            <button class="food-name">All</button>
+            <button>Burger</button>
+            <button>Pizza</button>
+            <button>Pasta</button>
+            <button>Fries</button>
+        </div>
+
+        <div class="grid-container">
+
+            <div class="card">
+                <img src="image/f8.png" alt="" class="card_image">
+                <div class="card-content">
+                    <h2>Delicious Burger</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi sed quisquam eum facilis aperiam fugiat distinctio quo eaque similique, culpa omnis. Repudiandae magni explicabo vel dolorem. Sint eum in provident?</p>
+                    
+                </div>
+                <!-- <button class="cart-btn">Add to Cart</button> -->
+                <div class="card-info">
+                    
+                    <div class="card-price">
+                        <p>$20</p>
+                    </div>
+                    <div >
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/f2.png" alt="" class="card_image">
+                <div class="card-content">
+                    <h2>Delicious Burger</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi sed quisquam eum facilis aperiam fugiat distinctio quo eaque similique, culpa omnis. Repudiandae magni explicabo vel dolorem. Sint eum in provident?</p>
+
+                </div>
+                <div class="card-info">
+                    <div class="card-price">
+                        <p>$20</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/f7.png" alt="" class="card_image">
+                <div class="card-content">
+                    <h2>Delicious Burger</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi sed quisquam eum facilis aperiam fugiat distinctio quo eaque similique, culpa omnis. Repudiandae magni explicabo vel dolorem. Sint eum in provident?</p>
+
+                </div>
+                <div class="card-info">
+                    <div class="card-price">
+                        <p>$20</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/f8.png" alt="" class="card_image">
+                <div class="card-content">
+                    <h2>Delicious Burger</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi sed quisquam eum facilis aperiam fugiat distinctio quo eaque similique, culpa omnis. Repudiandae magni explicabo vel dolorem. Sint eum in provident?</p>
+
+                </div>
+                <div class="card-info">
+                    <div class="card-price">
+                        <p>$20</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/f7.png" alt="" class="card_image">
+                <div class="card-content">
+                    <h2>Delicious Burger</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi sed quisquam eum facilis aperiam fugiat distinctio quo eaque similique, culpa omnis. Repudiandae magni explicabo vel dolorem. Sint eum in provident?</p>
+
+                </div>
+                <div class="card-info">
+                    <div class="card-price">
+                        <p>$20</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/f2.png" alt="" class="card_image">
+                <div class="card-content">
+                    <h2>Delicious Burger</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi sed quisquam eum facilis aperiam fugiat distinctio quo eaque similique, culpa omnis. Repudiandae magni explicabo vel dolorem. Sint eum in provident?</p>
+
+                </div>
+                <div class="card-info">
+                    <div class="card-price">
+                        <p>$20</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/f8.png" alt="" class="card_image">
+                <div class="card-content">
+                    <h2>Delicious Burger</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi sed quisquam eum facilis aperiam fugiat distinctio quo eaque similique, culpa omnis. Repudiandae magni explicabo vel dolorem. Sint eum in provident?</p>
+
+                </div>
+                <div class="card-info">
+                    <div class="card-price">
+                        <p>$20</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/f2.png" alt="" class="card_image">
+                <div class="card-content">
+                    <h2>Delicious Burger</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi sed quisquam eum facilis aperiam fugiat distinctio quo eaque similique, culpa omnis. Repudiandae magni explicabo vel dolorem. Sint eum in provident?</p>
+
+                </div>
+                <div class="card-info">
+                    <div class="card-price">
+                        <p>$20</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/f7.png" alt="" class="card_image">
+                <div class="card-content">
+                    <h2>Delicious Burger</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi sed quisquam eum facilis aperiam fugiat distinctio quo eaque similique, culpa omnis. Repudiandae magni explicabo vel dolorem. Sint eum in provident?</p>
+
+                </div>
+                <div class="card-info">
+                    <div class="card-price">
+                        <p>$20</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+
+
+    <!-- describe section start -->
+
+    <div class="describe-info">
+        <div>
+            <img src="image/about-img.png" alt="">
+        </div>
+
+        <div class="describe-heading">
+            <h1>We are Feance</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti amet quam earum consequuntur officiis nulla, ipsa reprehenderit quas unde, maxime, quo fugit aliquid tenetur possimus veritatis delectus voluptates nam ad! Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Molestias, unde vitae. Ullam recusandae possimus dolorem sed dolor sunt voluptates dolore eaque incidunt voluptatibus tempora quod repudiandae, adipisci provident eligendi? Obcaecati.
+            </p>
+
+            <button>Read more...</button>
+        </div>
+    </div>
+
+
+    <!-- form  section start-->
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- form  section end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- describe section end -->
+
+
+
+</body>
+
+</html>
